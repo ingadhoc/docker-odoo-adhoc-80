@@ -49,7 +49,7 @@ RUN git --work-tree=/opt/odoo/sources/odoo-web --git-dir=/opt/odoo/sources/odoo-
 RUN git --work-tree=/opt/odoo/sources/aeroo_reports --git-dir=/opt/odoo/sources/aeroo_reports/.git checkout master
 
 # Non-Usual adhoc generic addons
-RUN git --work-tree=/opt/odoo/sources/odoo-infrastructure --git-dir=/opt/odoo/sources/odoo-infrastructure/.git checkout master
+RUN git --work-tree=/opt/odoo/sources/odoo-infrastructure --git-dir=/opt/odoo/sources/odoo-infrastructure/.git checkout infra-docker
 
 # Adhoc specific projects
 
